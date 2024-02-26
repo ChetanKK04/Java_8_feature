@@ -30,7 +30,7 @@ public class JavaStreamAPIMapTest {
 		ls.add(new Student("Prakash", Subject.Sinces, 41));
 		ls.add(new Student("Prakash", Subject.English, 77));
 		
-		HashMap<String	,List<Subject>> map= new HashMap();
+		HashMap<String	, List<Subject>> map= new HashMap();
 		
 		  ls.stream().forEach(stu -> { map.computeIfAbsent(stu.getName(), x -> new ArrayList<Subject>()).add(stu.getSubject());
 			  });

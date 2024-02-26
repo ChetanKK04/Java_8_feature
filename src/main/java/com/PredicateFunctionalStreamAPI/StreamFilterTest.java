@@ -25,7 +25,7 @@ public class StreamFilterTest {
 	listmb.forEach(System.out:: println);
 	
 	Stream.of("chetan","Raj","Prakash").filter(x-> x.contains("h"))
-	.map(String :: toUpperCase).forEach(System.out :: println);  // filter and do the opersation   
+	.map(String :: toUpperCase).forEach(System.out :: println);  // filter and do the opersation  via map  
 	
 	System.out.println(Arrays.asList("chetan","Raj","Prakash","Chetan").stream().filter(x-> x.contains("h"))
 	.map(String :: toUpperCase).collect(Collectors.toList()));  // duplicate are coming because toList()
