@@ -3,4 +3,13 @@
   <groupId>Java_8_Features</groupId>
   <artifactId>Java_8_Features</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	<dependency>
+		<groupId>org.projectlombok</groupId>
+		<artifactId>lombok</artifactId>
+		<version>1.18.30</version>
+		<scope>provided</scope>
+	</dependency>
+</dependencies>
 </project>
