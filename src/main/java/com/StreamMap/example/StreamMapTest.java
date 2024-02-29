@@ -1,4 +1,4 @@
-package com.StreamMap_example;
+package com.StreamMap.example;
 
 import java.util.Arrays;
 import java.util.List;
@@ -19,6 +19,7 @@ public class StreamMapTest {
 		List<String> list2 = Arrays.asList("Geeks", "FOR", "GEEKSQUIZ", "Computer", "Science", "gfg");
 
 		list2.stream().map(String::length).forEach(System.out::println);
+
 	}
 
 }
